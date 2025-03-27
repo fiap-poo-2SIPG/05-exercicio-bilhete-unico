@@ -31,7 +31,7 @@ public class BilheteUnico {
         }
         if(saldo >= debito) {
             saldo -= debito;
-            return "catraca liberada";
+            return "Catraca liberada";
         }
         return "Saldo insuficiente";
     }
